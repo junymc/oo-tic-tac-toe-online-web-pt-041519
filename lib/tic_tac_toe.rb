@@ -109,11 +109,12 @@ class TicTacToe
   end
 
   def play
+    binding.pry
     until over?
       turn
-binding.pry
     end
     if draw?
+      
       puts "It's draw!"
     elsif won?
       puts "Conventions #{winner}!"
