@@ -111,7 +111,7 @@ class TicTacToe
   def play
     until over?
       turn
-
+binding.pry
     end
     if draw?
       puts "It's draw!"
